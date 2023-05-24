@@ -1,12 +1,8 @@
 import pandas as pd
-import numpy as np
 import torch
 import os
-import optuna
-import xgboost as xgb
 from torch import nn
 from torch.utils.data import Dataset, DataLoader
-from matplotlib import pyplot as plt
 from sklearn.metrics import f1_score
 import sys
 TRAIN_PATH = sys.argv[1]
